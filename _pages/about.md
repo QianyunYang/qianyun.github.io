@@ -780,7 +780,7 @@ Hi, I am Qianyun Yang (杨茜云).
 <div class="paper-box floating-card" id="experience-alibaba">
   <div class="paper-box-text">
     <p><strong>Alibaba · Taobao Tmall Group · China E-commerce Business Group</strong><br>
-    <span class="venue-full-name">Algorithm Engineer · Multimodal · 2026.05 – 2026.09</span>
+    <span class="venue-full-name">Algorithm Engineer · Multimodal · 2026.05 – 2026.09</span></p>
     <p>Agent Harness-driven multimodal quality diagnosis and self-evolution.</p>
     <ul>
       <li>Designed trajectory compression, evidence routing, and Attribution/Critic/Counterfactual Grader rubrics for 300+ node Agent chains.</li>
@@ -793,7 +793,7 @@ Hi, I am Qianyun Yang (杨茜云).
 <div class="paper-box floating-card" id="experience-telecom">
   <div class="paper-box-text">
     <p><strong>China Telecom · Data Infrastructure & Security Business Department</strong><br>
-    <span class="venue-full-name">Algorithm Developer · 2025.09 – 2026.05</span>
+    <span class="venue-full-name">Algorithm Developer · 2025.09 – 2026.05</span></p>
     <p>Data cleaning, fragment indexing, and intelligent matching for network-security assets.</p>
     <ul>
       <li>Built a rule/Agent dual-path cleaning system for non-compliant asset fields, category imbalance, and false alarms.</li>
