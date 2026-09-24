@@ -1,0 +1,15 @@
+{
+    "name": "Qianyun Yang's Homepage",
+    "short_name": "Qianyun Yang",
+    "icons": [
+       {
+          "src": "/images/favicon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml",
+          "purpose": "any maskable"
+        }
+    ],
+    "theme_color": "#012F63",
+    "background_color": "#FFFFFF",
+    "display": "standalone"
+ }
