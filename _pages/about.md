@@ -777,45 +777,41 @@ Hi, I am Qianyun Yang (杨茜云).
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;" id="experience">💼 Industry Experience</h1>
 
-<div class="paper-box floating-card" id="experience-alibaba">
-  <div class="paper-box-text">
-    <p><strong>Alibaba · Taobao Tmall Group · China E-commerce Business Group</strong><br>
-    <span class="venue-full-name">Algorithm Engineer · Multimodal · 2026.05 – 2026.09</span></p>
-    <p>Agent Harness-driven multimodal quality diagnosis and self-evolution.</p>
-    <ul>
-      <li>Designed trajectory compression, evidence routing, and Attribution/Critic/Counterfactual Grader rubrics for 300+ node Agent chains.</li>
-      <li>Completed batch evidence verification with nearly 95% high-value case reduction; shortened end-to-end analysis from tens of minutes to the minute scale.</li>
-      <li>Built a severity-aware SOP alignment and fine-tuning loop with SFT samples and graded rewards for recurring service-quality cases.</li>
-    </ul>
+<div class="huawei-highlights">
+  <div class="paper-box floating-card" id="experience-alibaba">
+    <div class="paper-box-text">
+      <p><strong>Alibaba · Taobao Tmall Group · China E-commerce Business Group</strong><br>
+      <span class="venue-full-name">Algorithm Engineer · Multimodal · 2026.05 – 2026.09</span></p>
+      <p>Agent Harness-driven multimodal quality diagnosis and self-evolution.</p>
+      <ul>
+        <li>Designed trajectory compression, evidence routing, and Attribution/Critic/Counterfactual Grader rubrics for 300+ node Agent chains.</li>
+        <li>Completed batch evidence verification with nearly 95% high-value case reduction; shortened end-to-end analysis from tens of minutes to the minute scale.</li>
+        <li>Built a severity-aware SOP alignment and fine-tuning loop with SFT samples and graded rewards for recurring service-quality cases.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="paper-box floating-card" id="experience-telecom">
+    <div class="paper-box-text">
+      <p><strong>China Telecom · Data Infrastructure & Security Business Department</strong><br>
+      <span class="venue-full-name">Algorithm Developer · 2025.09 – 2026.05</span></p>
+      <p>Data cleaning, fragment indexing, and intelligent matching for network-security assets.</p>
+      <ul>
+        <li>Built a rule/Agent dual-path cleaning system for non-compliant asset fields, category imbalance, and false alarms.</li>
+        <li>Designed fragment-indexing and semantic/fine-grained matching algorithms for asset-vulnerability retrieval.</li>
+        <li>Improved search logic, recall quality, coverage, and maintainability in a production-oriented pipeline.</li>
+      </ul>
+    </div>
   </div>
 </div>
-
-<div class="paper-box floating-card" id="experience-telecom">
-  <div class="paper-box-text">
-    <p><strong>China Telecom · Data Infrastructure & Security Business Department</strong><br>
-    <span class="venue-full-name">Algorithm Developer · 2025.09 – 2026.05</span></p>
-    <p>Data cleaning, fragment indexing, and intelligent matching for network-security assets.</p>
-    <ul>
-      <li>Built a rule/Agent dual-path cleaning system for non-compliant asset fields, category imbalance, and false alarms.</li>
-      <li>Designed fragment-indexing and semantic/fine-grained matching algorithms for asset-vulnerability retrieval.</li>
-      <li>Improved search logic, recall quality, coverage, and maintainability in a production-oriented pipeline.</li>
-    </ul>
-  </div>
-</div>
-
-<!-- <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;" id="awards">🏆 Awards and Recognition</h1>
-<div class="award-ribbon"><span>🏆 Huawei Outstanding Technical Collaboration Award</span><span>🏅 BYD Scholarship</span><span>🏆 Grand Prize · CICAS Smart Power Scenario Competition</span><span>🎓 Outstanding Graduate Award · Shandong University</span></div>
-
-<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;" id="competitions">🏅 Competition</h1>
-<ul>
-  <li>Grand Prize · CICAS Smart Power Scenario Competition.</li>
-</ul> -->
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;" id="education">📖 Education</h1>
 <ul>
   <li>2024.09 – present · Master's student, School of Software, Shandong University.</li>
   <li>2020.09 – 2024.07 · Bachelor's degree, School of Software, Shandong University.</li>
 </ul>
+
+<div aria-hidden="true"><br><br><br><br><br><br></div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
