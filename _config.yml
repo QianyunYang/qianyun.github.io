@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Qianyun Yang"
   avatar           : "qianyun-avatar.jpg"
-  bio              : "Master's student at Shandong University working on multimodal retrieval, evidence-driven agents, heterogeneous vector search, and AI security."
+  bio              : "Master's student at Shandong University"
   location         : "Jinan, Shandong, China"
   employer         : "Shandong University"
   pubmed           : 
