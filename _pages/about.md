@@ -692,8 +692,8 @@ Hi, I am Qianyun Yang (杨茜云).
 <div class="opensource-section" id="open-source-projects">
   <div class="section-kicker"><span class="i18n-en-inline">💻 Research Portfolio</span><span class="i18n-zh-inline">💻 研究项目</span></div>
   <div class="opensource-title"><span class="i18n-en-inline">Selected Lab Projects</span><span class="i18n-zh-inline">实验室代表性项目</span></div>
-  <p class="opensource-subtitle i18n-en">Representative projects connected to my research directions. Public links are included only where they are available.</p>
-  <p class="opensource-subtitle i18n-zh">以下项目对应我的主要研究方向；仅在已有公开页面时提供外链。</p>
+  <p class="opensource-subtitle i18n-en">Representative projects connected to my research directions.</p>
+  <p class="opensource-subtitle i18n-zh">以下项目对应我的主要研究方向</p>
   <div class="opensource-grid" id="opensource-grid">
     <div class="opensource-card">
       <img src="/images/airknow-logo.png" alt="Air-Know">
@@ -721,10 +721,6 @@ Hi, I am Qianyun Yang (杨茜云).
   <div class="news-title"><span class="i18n-en-inline">News</span><span class="i18n-zh-inline">新闻动态</span></div>
   <div class="news-grid">
     <div class="news-card">
-      <div class="news-date">2026.07</div>
-      <div class="news-text"><span class="i18n-en-inline">ERASE was published in <strong>IEEE TDSC</strong>, Volume 23, Issue 4. <a href="https://doi.org/10.1109/TDSC.2026.3677794" target="_blank">Paper</a> · <a href="https://github.com/iLearn-Lab/TDSC26-ERASE" target="_blank">Code</a></span><span class="i18n-zh-inline">ERASE 发表于 <strong>IEEE TDSC</strong>，第 23 卷第 4 期。<a href="https://doi.org/10.1109/TDSC.2026.3677794" target="_blank">论文</a> · <a href="https://github.com/iLearn-Lab/TDSC26-ERASE" target="_blank">代码</a></span></div>
-    </div>
-    <div class="news-card">
       <div class="news-date">2026.03.23</div>
       <div class="news-text"><span class="i18n-en-inline">ERASE was accepted by <strong>IEEE TDSC</strong>, and the core attack code was released. <a href="https://github.com/iLearn-Lab/TDSC26-ERASE" target="_blank">Project page</a></span><span class="i18n-zh-inline">ERASE 被 <strong>IEEE TDSC</strong> 接收，核心攻击代码同步开源。<a href="https://github.com/iLearn-Lab/TDSC26-ERASE" target="_blank">项目主页</a></span></div>
     </div>
@@ -739,7 +735,7 @@ Hi, I am Qianyun Yang (杨茜云).
   </div>
 </div>
 
-<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;" id="publications">📝 Selected Publications and Research Projects</h1>
+<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;" id="publications">📝 Selected Publications</h1>
 
 <div id="publications-wrapper">
   <div id="filter-container"></div>
@@ -749,7 +745,7 @@ Hi, I am Qianyun Yang (杨茜云).
     <div class="paper-box-text">
       <p><strong>STABLE: Efficient Hybrid Nearest Neighbor Search via Magnitude-Uniformity and Cardinality-Robustness</strong></p>
       <div class="paper-authors"><span class="author-self">Qianyun Yang</span>, Zhiwei Chen, Yupeng Hu, Zixu Li, Zhiheng Fu, Liqiang Nie</div>
-      <div class="badge-container"><span class="inner-tag-badge">First Author</span><span class="inner-tag-badge">CCF A</span><span class="inner-tag-badge">Efficiency</span><span class="inner-tag-badge">Hybrid ANN Search</span><span class="inner-tag-badge">Robust Retrieval</span><span class="inner-tag-badge">Huawei Collaboration</span></div>
+      <div class="badge-container"><span class="inner-tag-badge">First Author</span><span class="inner-tag-badge">CCF A</span><span class="inner-tag-badge">Efficiency</span><span class="inner-tag-badge">Hybrid ANN Search</span><span class="inner-tag-badge">Robust Retrieval</span></div>
       <div class="paper-link-container"><a class="paper-link-btn" href="https://www.computer.org/csdl/journal/tk/2026/06/11450508/2f5S8Le2iZ2" target="_blank">Official Version</a></div>
     </div>
   </div>
