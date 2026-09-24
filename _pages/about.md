@@ -777,9 +777,9 @@ Hi, I am Qianyun Yang (杨茜云).
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;" id="experience">💼 Industry Experience</h1>
 
-<div class="huawei-highlights">
+<div class="huawei-highlights" style="align-items: start;">
   <div class="paper-box floating-card" id="experience-alibaba">
-    <div class="paper-box-text">
+    <div class="paper-box-text" style="max-width: 100%; flex: 1 1 100%; padding-left: 0;">
       <p><strong>Alibaba · Taobao Tmall Group · China E-commerce Business Group</strong><br>
       <span class="venue-full-name">Algorithm Engineer · Multimodal · 2026.05 – 2026.09</span></p>
       <p>Agent Harness-driven multimodal quality diagnosis and self-evolution.</p>
@@ -792,7 +792,7 @@ Hi, I am Qianyun Yang (杨茜云).
   </div>
 
   <div class="paper-box floating-card" id="experience-telecom">
-    <div class="paper-box-text">
+    <div class="paper-box-text" style="max-width: 100%; flex: 1 1 100%; padding-left: 0;">
       <p><strong>China Telecom · Data Infrastructure & Security Business Department</strong><br>
       <span class="venue-full-name">Algorithm Developer · 2025.09 – 2026.05</span></p>
       <p>Data cleaning, fragment indexing, and intelligent matching for network-security assets.</p>
