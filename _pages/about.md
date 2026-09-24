@@ -803,13 +803,13 @@ Hi, I am Qianyun Yang (杨茜云).
   </div>
 </div>
 
-<h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;" id="awards">🏆 Awards and Recognition</h1>
+<!-- <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;" id="awards">🏆 Awards and Recognition</h1>
 <div class="award-ribbon"><span>🏆 Huawei Outstanding Technical Collaboration Award</span><span>🏅 BYD Scholarship</span><span>🏆 Grand Prize · CICAS Smart Power Scenario Competition</span><span>🎓 Outstanding Graduate Award · Shandong University</span></div>
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;" id="competitions">🏅 Competition</h1>
 <ul>
   <li>Grand Prize · CICAS Smart Power Scenario Competition.</li>
-</ul>
+</ul> -->
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 45px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;" id="education">📖 Education</h1>
 <ul>
