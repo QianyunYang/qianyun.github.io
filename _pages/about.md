@@ -1,0 +1,196 @@
+---
+permalink: /
+title: ""
+excerpt: ""
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<style>
+.qy-page { --navy:#012f63; --blue:#2f6fb3; --pink:#fe667b; --ink:#24292e; --muted:#586069; }
+.qy-page a { color: var(--blue); }
+.qy-page .hero-title { margin: 0 0 .35rem; color: var(--navy); font-size: 2rem; line-height: 1.2; }
+.qy-page .hero-subtitle { margin: 0 0 1rem; color: var(--muted); font-size: 1rem; }
+.qy-page .language-switcher { margin: 1.1rem 0 1.35rem; }
+.qy-page .language-tabs { display:inline-flex; gap:.35rem; padding:.28rem; border:1px solid rgba(1,47,99,.08); border-radius:999px; background:#f6f8fa; }
+.qy-page .lang-tab { border:0; border-radius:999px; padding:.42rem .92rem; background:transparent; color:var(--muted); font-weight:800; cursor:pointer; }
+.qy-page .lang-tab.active, .qy-page .lang-tab:hover { color:#fff; background:linear-gradient(135deg,var(--pink),#6aa9ff); }
+.qy-page .lang-panel { display:none; }
+.qy-page .lang-panel.active { display:block; }
+.qy-page .research-intro { color:var(--ink); font-size:1.02em; line-height:1.78; }
+.qy-page .research-intro strong { color:var(--navy); }
+.qy-page .roadmap { margin:1.45rem 0 2rem; padding:1.2rem; border:1px dashed rgba(1,47,99,.2); border-radius:18px; background:linear-gradient(180deg,#fff,#f8fbff); box-shadow:0 10px 28px rgba(1,47,99,.05); }
+.qy-page .roadmap-title { margin:0 0 1rem; text-align:center; color:var(--navy); font-weight:850; }
+.qy-page .roadmap-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.75rem; }
+.qy-page .roadmap-card { padding:.85rem .8rem; border:1px solid rgba(1,47,99,.09); border-radius:14px; background:#fff; box-shadow:0 6px 18px rgba(1,47,99,.06); }
+.qy-page .roadmap-card h4 { margin:0 0 .35rem; color:var(--navy); font-size:.96rem; }
+.qy-page .roadmap-card p { margin:0; color:var(--muted); font-size:.82rem; line-height:1.5; }
+.qy-page .roadmap-arrow { margin:1rem 0; padding:.72rem 1rem; border-radius:999px; color:#fff; text-align:center; font-weight:850; background:linear-gradient(90deg,#ffd6b5,#ffd3dc,#9ec7ff); text-shadow:0 1px 5px rgba(1,47,99,.28); }
+.qy-page .section-heading { margin:2.1rem 0 .8rem; padding-bottom:.45rem; border-bottom:1px solid #eaecef; color:var(--navy); font-size:1.28rem; }
+.qy-page .section-note { color:var(--muted); line-height:1.65; }
+.qy-page .paper-box { border:2px solid transparent !important; background:linear-gradient(#fff,#fff) padding-box,linear-gradient(135deg,rgba(1,47,99,.08),rgba(1,47,99,.08)) border-box !important; }
+.qy-page .paper-box:hover { background:linear-gradient(#fff,#fff) padding-box,linear-gradient(135deg,var(--pink),#a29bfe) border-box !important; }
+.qy-page .paper-box-text { line-height:1.58; }
+.qy-page .paper-box-text strong { color:var(--navy); }
+.qy-page .paper-link-btn { display:inline-block; margin:.3rem .35rem .1rem 0; padding:.24rem .58rem; border:1px solid #6aa9ff; border-radius:999px; background:#fff; color:var(--blue) !important; font-size:.78rem; text-decoration:none !important; }
+.qy-page .paper-link-btn:hover { background:var(--blue); color:#fff !important; }
+.qy-page .badge { white-space:nowrap; }
+.qy-page .meta-line { margin:.25rem 0; color:var(--muted); font-size:.9rem; }
+.qy-page .tag-row { display:flex; flex-wrap:wrap; gap:.35rem; margin:.65rem 0 .2rem; }
+.qy-page .tag { padding:.18rem .5rem; border-radius:999px; background:#f6f8fa; border:1px solid #eaecef; color:#586069; font-size:.75rem; }
+.qy-page .experience-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+.qy-page .experience-card { padding:1rem 1.05rem; border:1px solid rgba(1,47,99,.1); border-radius:16px; background:linear-gradient(180deg,#fff,#f8fbff); box-shadow:0 8px 22px rgba(1,47,99,.06); }
+.qy-page .experience-card h3 { margin:.1rem 0 .25rem; color:var(--navy); font-size:1.05rem; }
+.qy-page .experience-card .role { color:var(--pink); font-weight:800; font-size:.86rem; }
+.qy-page .experience-card .date { float:right; color:var(--muted); font-size:.8rem; font-weight:700; }
+.qy-page .experience-card ul { margin:.65rem 0 0 1.1rem; padding:0; color:var(--ink); line-height:1.58; }
+.qy-page .award-ribbon { display:flex; flex-wrap:wrap; gap:.4rem; margin:.55rem 0 .75rem; }
+.qy-page .award-ribbon span { padding:.3rem .55rem; border-radius:9px; background:#fff4e9; border:1px solid #ffd3b3; color:#a54816; font-size:.78rem; font-weight:800; }
+.qy-page .people-card { padding:1rem 1.1rem; border-radius:16px; background:#f8fbff; border:1px solid rgba(1,47,99,.08); }
+.qy-page .people-list { display:flex; flex-wrap:wrap; gap:.4rem .65rem; line-height:1.6; }
+.qy-page .people-list a, .qy-page .people-list span { padding:.18rem .48rem; border-radius:999px; background:#fff; border:1px solid rgba(1,47,99,.08); font-size:.83rem; }
+.qy-page .small-note { color:var(--muted); font-size:.82rem; line-height:1.6; }
+.qy-page .two-col { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+.qy-page .info-card { padding:1rem 1.1rem; border-left:4px solid #6aa9ff; border-radius:12px; background:linear-gradient(180deg,#f8fbff,#fff); }
+.qy-page .info-card h3 { margin:.05rem 0 .45rem; color:var(--navy); font-size:1.05rem; }
+.qy-page .info-card ul { margin:.35rem 0 0 1.05rem; padding:0; line-height:1.7; }
+@media (max-width:720px) {
+  .qy-page .hero-title { font-size:1.65rem; }
+  .qy-page .roadmap-grid, .qy-page .experience-grid, .qy-page .two-col { grid-template-columns:1fr; }
+  .qy-page .roadmap-arrow { border-radius:16px; }
+  .qy-page .experience-card .date { float:none; display:block; margin-top:.2rem; }
+}
+</style>
+
+<div class="qy-page">
+  <span class="anchor" id="about-me"></span>
+  <h1 class="hero-title">Hi, I am Qianyun Yang (杨茜云).</h1>
+  <p class="hero-subtitle">Master's student at the School of Software, Shandong University · Multimodal Retrieval · Agent Safety · Evidence-driven Reasoning</p>
+
+  <div class="language-switcher" id="research-language-switcher">
+    <div class="language-tabs" role="tablist" aria-label="Biography language selector">
+      <button class="lang-tab active" type="button" data-lang="en" role="tab" aria-selected="true">English</button>
+      <button class="lang-tab" type="button" data-lang="zh" role="tab" aria-selected="false">中文</button>
+    </div>
+
+    <div class="lang-panel active" data-lang-panel="en" role="tabpanel">
+      <div class="research-intro">
+        <p>Welcome! I am a master's student in the <a href="https://www.sc.sdu.edu.cn">School of Software</a> at <a href="https://www.sdu.edu.cn">Shandong University</a>. My research interests span <strong>multimodal understanding and retrieval, heterogeneous vector search, evidence-driven agents, and AI security</strong>.</p>
+        <p>My work focuses on robust multimodal representation, heterogeneous vector retrieval, and reliable AI systems. I study how to improve retrieval quality, system efficiency, and evidence-based evaluation across both research prototypes and industry-scale applications.</p>
+        <p>I also enjoy building systems beyond papers. My recent work includes the Huawei general vector-search collaboration, Alibaba agent-quality diagnostics, China Telecom data-infrastructure security, and multimodal retrieval research with collaborators from Shandong University.</p>
+      </div>
+    </div>
+
+    <div class="lang-panel" data-lang-panel="zh" role="tabpanel">
+      <div class="research-intro">
+        <p>欢迎来到我的主页！我目前是<a href="https://www.sc.sdu.edu.cn">山东大学软件学院</a>硕士研究生。我的研究兴趣主要聚焦于<strong>多模态理解与检索、异构数据向量检索、证据驱动 Agent 推理与人工智能安全</strong>。</p>
+        <p>我的研究主要围绕鲁棒多模态表征、异构数据向量检索与可信 AI 系统展开，关注检索质量、系统效率以及面向真实场景的证据化评测。</p>
+        <p>除论文研究外，我也关注真实系统落地，近期参与了华为通用向量检索合作、阿里巴巴 Agent 质量诊断、中国电信数据基础设施安全，以及山东大学多模态检索方向的系列研究。</p>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="section-heading" id="research">Research Projects</h2>
+  <p class="section-note">Selected projects adapted from my research CV. Author lists are preserved in full; links are included only when a public page is available in the template or source materials.</p>
+
+  <div id="paper-stable" class="paper-box floating-card">
+    <div class="paper-box-image"><div><div class="badge">IEEE TKDE 2026 · CCF-A · First Author</div><img src="/images/STABLE-TKDE26.png" alt="STABLE" width="100%"></div></div>
+    <div class="paper-box-text">
+      <strong>STABLE: Efficient Hybrid Nearest Neighbor Search via Magnitude-Uniformity and Cardinality-Robustness</strong>
+      <div class="meta-line">Qianyun Yang, Zhiwei Chen, Yupeng Hu, Zixu Li, Zhiheng Fu, Liqiang Nie</div>
+      <div class="tag-row"><span class="tag">Hybrid ANN Search</span><span class="tag">Robust Retrieval</span><span class="tag">Huawei Collaboration</span></div>
+      <a class="paper-link-btn" href="https://www.computer.org/csdl/journal/tk/2026/06/11450508/2f5S8Le2iZ2" target="_blank">Official Version</a>
+    </div>
+  </div>
+
+  <div id="paper-erase" class="paper-box floating-card">
+    <div class="paper-box-image"><div><div class="badge">IEEE TDSC 2026 · CCF-A · Under Review</div><img src="/images/ERASE-TDSC26.png" alt="ERASE" width="100%"></div></div>
+    <div class="paper-box-text">
+      <strong>ERASE: Bypassing Collaborative Detection of AI Counterfeit via Comprehensive Artifacts Elimination</strong>
+      <div class="meta-line">Qianyun Yang, Peizhuo Lv, Yingjiu Li, Shengzhi Zhang, Yuxuan Chen, Zhiwei Chen, Zixu Li, Yupeng Hu</div>
+      <div class="tag-row"><span class="tag">AI Security</span><span class="tag">Artifact Elimination</span><span class="tag">Cross-domain Evaluation</span></div>
+    </div>
+  </div>
+
+  <div id="paper-airknow" class="paper-box floating-card">
+    <div class="paper-box-image"><div><div class="badge">CVPR 2026 · CCF-A · Third Author</div><img src="/images/AirKnow-CVPR26.png" alt="Air-Know" width="100%"></div></div>
+    <div class="paper-box-text">
+      <strong>Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval</strong>
+      <div class="meta-line"><a href="https://zhihfu.github.io">Zhiheng Fu</a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, Qianyun Yang, Shiqi Zhang, <a href="https://zivchen-ty.github.io">Zhiwei Chen</a>, <a href="https://lee-zixu.github.io">Zixu Li</a></div>
+      <div class="tag-row"><span class="tag">Composed Image Retrieval</span><span class="tag">Knowledge Internalization</span><span class="tag">Robustness</span></div>
+      <a class="paper-link-btn" href="https://arxiv.org/abs/2604.19386" target="_blank">Paper</a>
+      <a class="paper-link-btn" href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank">Project</a>
+    </div>
+  </div>
+
+  <h2 class="section-heading" id="experience">Industry Experience</h2>
+  <div class="experience-grid">
+    <div class="experience-card">
+      <div class="role">Algorithm Engineer · Multimodal</div><span class="date">2026.05 – 2026.09</span>
+      <h3>Alibaba · Taobao Tmall Group · China E-commerce Business Group</h3>
+      <p>Agent Harness-driven multimodal quality diagnosis and self-evolution.</p>
+      <ul>
+        <li>Designed trajectory compression, evidence routing, and Attribution/Critic/Counterfactual Grader rubrics for 300+ node Agent chains.</li>
+        <li>Completed batch evidence verification with nearly 95% high-value case reduction; shortened end-to-end analysis from tens of minutes to the minute scale.</li>
+        <li>Built a severity-aware SOP alignment and fine-tuning loop with SFT samples and graded rewards for recurring service-quality cases.</li>
+      </ul>
+    </div>
+    <div class="experience-card">
+      <div class="role">Algorithm Developer</div><span class="date">2025.09 – 2026.05</span>
+      <h3>China Telecom · Data Infrastructure &amp; Security Business Department</h3>
+      <p>Data cleaning, fragment indexing, and intelligent matching for network-security assets.</p>
+      <ul>
+        <li>Built a rule/Agent dual-path cleaning system for non-compliant asset fields, category imbalance, and false alarms.</li>
+        <li>Designed fragment-indexing and semantic/fine-grained matching algorithms for asset-vulnerability retrieval.</li>
+        <li>Improved search logic, recall quality, coverage, and maintainability in a production-oriented pipeline.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 class="section-heading" id="skills">Technical Focus</h2>
+  <div class="two-col">
+    <div class="info-card"><h3>Agent &amp; Feedback Loops</h3><ul><li>Agent Harness, trajectory/trace compression, evidence routing</li><li>Grader/Rubric, Critic, self-play, SFT/DPO/RLVR</li><li>Skill/Memory and verifiable evidence trajectories</li></ul></div>
+    <div class="info-card"><h3>Multimodal &amp; Retrieval</h3><ul><li>MLLM task modeling and composed image retrieval</li><li>Vision-language representation, ANN, hybrid metrics</li><li>Heterogeneous indexes and dynamic routing</li></ul></div>
+    <div class="info-card"><h3>Trustworthy AI</h3><ul><li>AIGC generation and detection, artifact elimination</li><li>AI watermarking and safety evaluation</li><li>Data cleaning, index construction, batch evaluation</li></ul></div>
+    <div class="info-card"><h3>Education</h3><ul><li>Master's student, School of Software, Shandong University, 2024.09 – present</li><li>Bachelor's degree, School of Software, Shandong University, 2020.09 – 2024.07</li><li>Research directions: multimodal retrieval, heterogeneous vector search, evidence-driven agents, AI security</li></ul></div>
+  </div>
+
+  <h2 class="section-heading" id="awards">Awards &amp; Recognition</h2>
+  <div class="award-ribbon"><span>🏆 Huawei Outstanding Technical Collaboration Award</span><span>🏅 BYD Scholarship</span><span>🏆 Grand Prize · CICAS Smart Power Scenario Competition</span><span>🎓 Outstanding Graduate Award · Shandong University</span></div>
+
+  <h2 class="section-heading" id="collaborators">Research Collaborators</h2>
+  <div class="people-card">
+    <p class="small-note">All people listed below are retained from the author lists and project descriptions in my CV.</p>
+    <div class="people-list">
+      <span>Qianyun Yang</span>
+      <a href="https://zivchen-ty.github.io">Zhiwei Chen</a>
+      <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>
+      <a href="https://lee-zixu.github.io">Zixu Li</a>
+      <a href="https://zhihfu.github.io">Zhiheng Fu</a>
+      <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a>
+      <span>Peizhuo Lv</span><span>Yingjiu Li</span><span>Shengzhi Zhang</span><span>Yuxuan Chen</span><span>Shiqi Zhang</span>
+    </div>
+  </div>
+
+  <p class="small-note" style="margin-top:1.6rem;">For the latest paper status, please refer to the project cards above. Public links are intentionally limited to sources already available in the template or resume.</p>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const switcher = document.getElementById('research-language-switcher');
+  if (!switcher) return;
+  const tabs = switcher.querySelectorAll('.lang-tab');
+  const panels = switcher.querySelectorAll('.lang-panel');
+  const setLanguage = (lang) => {
+    tabs.forEach(tab => {
+      const active = tab.dataset.lang === lang;
+      tab.classList.toggle('active', active);
+      tab.setAttribute('aria-selected', active ? 'true' : 'false');
+    });
+    panels.forEach(panel => panel.classList.toggle('active', panel.dataset.langPanel === lang));
+  };
+  tabs.forEach(tab => tab.addEventListener('click', () => setLanguage(tab.dataset.lang)));
+});
+</script>
